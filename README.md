@@ -11,7 +11,7 @@
 ## 💼 Desenvolvido com:
 >   - HTML
 >   - CSS e
->   - >   - JAVASCRIPT
+>   - JAVASCRIPT
 
 ## ALURA (#alura)
 
