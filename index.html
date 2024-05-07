@@ -5,25 +5,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kanban</title>
-
+  
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="kanban">
-    <div class="grupo">
-      <div class="item" draggable="true">Card 01</div>
-      <div class="item" draggable="true">Card 02</div>
+  <div class="context-menu" id="contextMenu">
+    <ul>
+      <li id="editarItem">Editar</li>
+      <li>Excluir</li>
+    </ul>
+  </div>
+  <div class="kanban" id="kanban">
+    <div class="titulo-grupo">
+      <h1>Grupo Principal</h1>
+      <div class="grupo" id="grupo-inicial">
+        <div class="item" draggable="true" id="item-1">Item 1</div>
+        <div class="item" draggable="true" id="item-2">Item 2</div>
+      </div>
     </div>
-    <div class="grupo">
-      <div class="item" draggable="true">Card 03</div>
-      <div class="item" draggable="true">Card 04</div>
-    </div>
-    <div class="grupo">
-      <div class="item" draggable="true">Card 05</div>
-      <div class="item" draggable="true">Card 06</div>
+    <div class="titulo-grupo">
+      <h1>Grupo 1</h1>
+      <div class="grupo" id="grp-1">
+        <div class="item" draggable="true" id="item-3">Item 3</div>
+      </div>
     </div>
   </div>
-
+    <input id="nome-novo-grupo" type="text" placeholder="Nome do Grupo"/>
+    <button id="add-grupo">Adicionar Grupo</button>
+    <br>
+    <input id="nome-novo-item" type="text" placeholder="Nome do Item"/>
+    <button id="add-item">Adicionar Item</button>
   <script src="script.js"></script>
 </body>
 </html>
