@@ -12,6 +12,7 @@
   min-height: 400px;
   gap: 10px;
   padding: 10px;
+  background: #FFF4CF;
 }
 
 .grupo {
@@ -39,28 +40,32 @@
 
 #nome-novo-grupo{
   width:100px;
-  height:50px;
+  height:30px;
+  margin: 20px 0px 0px 150px;
 }
 
 #add-grupo{
   width:100px;
-  height:50px;
+  height:30px;
+  margin: 20px 0px 0px 0px;
 }
 
 #nome-novo-item{
   width:100px;
-  height:50px;
+  height:30px;
+  margin: 20px 0px 0px 150px;
 }
 #add-item{
   width:100px;
-  height:50px;
+  height:30px;
+  margin: 20px 0px 0px 0px;
 }
 
 /* CSS Styling (example) */
 .context-menu {
   position: absolute;
   display: none; /* Escondido inicialmente */
-  background-color: #fff;
+  background: #fff;
   border: 1px solid #ccc;
   padding: 5px;
 }
@@ -78,4 +83,11 @@
 
 .context-menu li:hover {
   background-color: #f0f0f0;
+}
+
+#formulario{
+  margin: 50px 50px 50px 50px;
+  background: #666666;
+  width: 50%;
+  display: table;
 }
