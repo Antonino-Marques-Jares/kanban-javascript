@@ -7,10 +7,10 @@
 > ## 🎓 Este projeto faz parte do primeiro exercício da Imersão IA do Alura e Google.
 > - [x] O código foi desenvolvido no dia 06/05/2024 com o Gemini do Google, com o propósito de entender como utilizar o Gemini no trabalho de desenvolvimento.
 
-## ALURA (#ALURA)
+## ALURA (#alura)
 
-## IMERSÃO IA (#IMERSAOIA)
+## IMERSÃO IA (#imersaoia)
 
-## GOOGLE (#GOOGLE)
+## GOOGLE (#google)
 
-## GEMINI (#GEMINI)
+## GEMINI (#gemini)
